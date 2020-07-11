@@ -2,13 +2,13 @@
   {
     "label": "Maths",
     "name": "maths",
-    "description": "Questions about maths",
+    "description": "Questions about Maths",
     "fileName": "maths.json"
   },
   {
-    "label": "French",
-    "name": "french",
-    "description": "Questions about french",
-    "fileName": "french.json"
+    "label": "German",
+    "name": "german",
+    "description": "Questions about German",
+    "fileName": "german.json"
   }
 ]
