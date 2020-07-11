@@ -25,11 +25,9 @@ export class QuestionsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // read from the dynamic route and load the proper quiz data
     this.questionsService
       .getQuestions(this.route.snapshot.params.quizId)
       .subscribe((questions) => {
-        // initialize everything
         this.questions = questions;
         this.answers = new Answers();
         this.currentQuestionIndex = 0;
