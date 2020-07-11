@@ -1,5 +1,3 @@
-// Manifest file = stores metadata about other files of data
-// Every available quiz needs to be added to this file
 [
   {
     "label": "Maths",

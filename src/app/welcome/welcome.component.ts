@@ -9,6 +9,7 @@ import { Quiz } from '../quiz.model';
 })
 export class WelcomeComponent implements OnInit {
   quiz: Quiz[];
+
   constructor(public questionsService: QuestionsService) { }
 
   ngOnInit() {
