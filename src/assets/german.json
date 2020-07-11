@@ -1,0 +1,212 @@
+[
+  {
+    "label": "What is 'Hello' in German?",
+    "choices": [
+      {
+        "value": "Danke",
+        "correct": false
+      },
+      {
+        "value": "Hallo",
+        "correct": true
+      },
+      {
+        "value": "Bitte",
+        "correct": false
+      },
+      {
+        "value": "und",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is 'Goodbye' in German?",
+    "choices": [
+      {
+        "value": "Auf Wiedersehen",
+        "correct": true
+      },
+      {
+        "value": "Guten Tag",
+        "correct": false
+      },
+      {
+        "value": "Hilfe",
+        "correct": false
+      },
+      {
+        "value": "Bitte schön",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is 'girl' in German?",
+    "choices": [
+      {
+        "value": "Tschüss",
+        "correct": false
+      },
+      {
+        "value": "Katze",
+        "correct": false
+      },
+      {
+        "value": "Mädchen",
+        "correct": true
+      },
+      {
+        "value": "Frau",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which one is NOT an article in German?",
+    "choices": [
+      {
+        "value": "und",
+        "correct": true
+      },
+      {
+        "value": "der",
+        "correct": false
+      },
+      {
+        "value": "die",
+        "correct": false
+      },
+      {
+        "value": "das",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What does 'Tschüss' mean?",
+    "choices": [
+      {
+        "value": "Please",
+        "correct": false
+      },
+      {
+        "value": "Hi",
+        "correct": false
+      },
+      {
+        "value": "Bye",
+        "correct": true
+      },
+      {
+        "value": "Sorry",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How many grammatical genders are there in German?",
+    "choices": [
+      {
+        "value": "German does not use grammatical genders.",
+        "correct": false
+      },
+      {
+        "value": "4",
+        "correct": false
+      },
+      {
+        "value": "2",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What does 'Danke schön' mean?",
+    "choices": [
+      {
+        "value": "Thank you very much",
+        "correct": true
+      },
+      {
+        "value": "Until next time",
+        "correct": false
+      },
+      {
+        "value": "I am very sorry",
+        "correct": false
+      },
+      {
+        "value": "Goodbye",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of these countries does NOT use German as an official language?",
+    "choices": [
+      {
+        "value": "Austria",
+        "correct": false
+      },
+      {
+        "value": "Switzerland",
+        "correct": false
+      },
+      {
+        "value": "Belgium",
+        "correct": false
+      },
+      {
+        "value": "Slovakia",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What is 'green' in German?",
+    "choices": [
+      {
+        "value": "Grün",
+        "correct": true
+      },
+      {
+        "value": "Schwarz",
+        "correct": false
+      },
+      {
+        "value": "Rot",
+        "correct": true
+      },
+      {
+        "value": "Blau",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is 'ten' in German?",
+    "choices": [
+      {
+        "value": "tien",
+        "correct": false
+      },
+      {
+        "value": "zehn",
+        "correct": true
+      },
+      {
+        "value": "nein",
+        "correct": false
+      },
+      {
+        "value": "fünf",
+        "correct": false
+      }
+    ]
+  }
+]
