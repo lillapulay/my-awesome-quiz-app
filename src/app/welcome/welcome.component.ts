@@ -10,12 +10,16 @@ import { Quiz } from '../quiz.model';
 export class WelcomeComponent implements OnInit {
   quiz: Quiz[];
 
-  constructor(public questionsService: QuestionsService) { }
+  constructor(
+    public questionsService: QuestionsService
+  ) { }
 
   ngOnInit() {
-    this.questionsService.getQuizzes().subscribe((quiz) => {
-      this.quiz = quiz;
-    });
+    this.questionsService
+      .getQuizzes()
+      .subscribe((quiz) => {
+        this.quiz = quiz;
+      });
   }
 
   reset() {
