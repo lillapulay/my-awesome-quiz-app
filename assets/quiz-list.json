@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Maths",
+    "name": "maths",
+    "description": "Questions about Maths",
+    "fileName": "maths.json"
+  },
+  {
+    "label": "German",
+    "name": "german",
+    "description": "Questions about German",
+    "fileName": "german.json"
+  }
+]
