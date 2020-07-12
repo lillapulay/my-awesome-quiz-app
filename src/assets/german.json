@@ -108,7 +108,7 @@
     "label": "How many grammatical genders are there in German?",
     "choices": [
       {
-        "value": "German does not use grammatical genders.",
+        "value": "None",
         "correct": false
       },
       {
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "label": "Which of these countries does NOT use German as an official language?",
+    "label": "In which country is German NOT an official language?",
     "choices": [
       {
         "value": "Austria",
