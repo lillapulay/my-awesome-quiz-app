@@ -1,0 +1,82 @@
+$primary: #329ACD;
+$secondary: #9ACD32;
+$tertiary: #CD329A;
+$textcolor: #fff;
+$shadowcolor: #5a9a9c;
+
+mat-toolbar {
+  text-align: center;
+  background-color: $primary;
+}
+
+mat-toolbar span {
+  width: 100%;
+  color: $textcolor;
+}
+
+.answer {
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  color: $tertiary;
+}
+
+.correct {
+  font-size: 22px;
+  padding-bottom: 8px;
+  color: $secondary;
+}
+
+.results {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.results-card {
+  background-color: $primary;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px $shadowcolor;
+}
+
+mat-card-title {
+  color: $textcolor;
+  text-shadow: 1px 1px 3px $textcolor;  
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+button a {
+  text-decoration: none;
+  color: $tertiary;
+}
+
+button {
+  background-color: $secondary;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 2px;  
+  color: $tertiary;
+  border-radius: 15px;
+  border: 1px solid $shadowcolor;
+  max-width: 90%;
+  padding: 5px 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  opacity: 1;  
+  transition-duration: 0.4s;
+  transition-property: opacity;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}

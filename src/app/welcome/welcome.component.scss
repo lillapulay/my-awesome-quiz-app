@@ -1,0 +1,99 @@
+$primary: #329ACD;
+$secondary: #9ACD32;
+$tertiary: #CD329A;
+$textcolor: #fff;
+$shadowcolor: #5a9a9c;
+
+body {
+  background-color: $secondary;
+}
+
+mat-toolbar {
+  text-align: center;
+  background-color: $primary;
+}
+
+mat-toolbar span {
+  width: 100%;
+  color: $textcolor;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+h1 {
+  color: $tertiary;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+p {
+  color: $tertiary;
+  text-align: center;
+  font-size: 22px;
+}
+
+mat-card-title {
+  color: $textcolor;
+  text-shadow: 1px 1px 3px $textcolor;  
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+mat-card-subtitle {
+  color: $textcolor;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-card {
+  background-color: $primary;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px $shadowcolor;
+}
+
+button a {
+  text-decoration: none;
+  color: $tertiary;
+}
+
+button {
+  background-color: $secondary;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  border: 1px solid $shadowcolor;
+  max-width: 90%;
+  padding: 5px 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  opacity: 1;  
+  transition-duration: 0.4s;
+  transition-property: opacity;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}

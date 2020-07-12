@@ -1,18 +1,31 @@
-<div class="results">
-  <mat-card>
-    <mat-card-title>Results</mat-card-title>
+<body>
+  <mat-toolbar>
+    <span>Angular Quiz App</span>
+  </mat-toolbar>
 
-    <mat-card-content class="mat-app-background" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
-      {{a.value}}
-    </mat-card-content>
-
+  <div class="results">
+    <div class="results-card">
+      <mat-card-title>
+        Results
+      </mat-card-title>
+      <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+        {{a.value}}
+      </div>
+    </div>
     <mat-card-actions>
-      <button mat-raised-button color="accent" class="btn btn-primary">
-        <a routerLink="/welcome" class="btn btn-primary">
-          Choose another quiz
-        </a>
+      <button mat-raised-button>
+        <a routerLink="/welcome">Choose another quiz</a>
       </button>
     </mat-card-actions>
+  </div>
 
-  </mat-card>
-</div>
+
+
+
+
+
+
+
+
+
+</body>
