@@ -8,6 +8,7 @@ This project was part of the CF Full-Stack Web Development course.
 
 ### Planned updates:
 ```
+- welcome view: improved component placement
 - results: show correct answers and questions besides the answer the user has given
 - question cards: improved display of choices
 - load quiz data from an API instead of JSON files
