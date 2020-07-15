@@ -1,4 +1,4 @@
-# To-Do App
+# MyAwesomeQuizApp
 
 ## About
 ```
