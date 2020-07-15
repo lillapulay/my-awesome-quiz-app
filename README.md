@@ -1,3 +1,19 @@
+# To-Do App
+
+## About
+```
+Simple quiz app created with Angular. 
+This project was part of the CF Full-Stack Web Development course. 
+```
+
+### Planned updates:
+```
+- results: show correct answers and questions besides the answer the user has given
+- question cards: improved display of choices
+- load quiz data from an API instead of JSON files
+- UI updates (e.g. improvements regarding responsive design).
+```
+
 # MyAwesomeQuizApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
